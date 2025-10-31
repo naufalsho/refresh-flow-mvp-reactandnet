@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "refresh-flow-mvp-reactandnet.Server", "refresh-flow-mvp-reactandnet.Server\refresh-flow-mvp-reactandnet.Server.csproj", "{4A481D8A-92B8-4F9D-9F5F-68617F114B7D}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "refresh-flow-mvp-reactandnet.client", "refresh-flow-mvp-reactandnet.client\refresh-flow-mvp-reactandnet.client.esproj", "{A496623D-7F6F-4687-930F-63DE0A0B24FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A481D8A-92B8-4F9D-9F5F-68617F114B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A481D8A-92B8-4F9D-9F5F-68617F114B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A481D8A-92B8-4F9D-9F5F-68617F114B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A481D8A-92B8-4F9D-9F5F-68617F114B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A496623D-7F6F-4687-930F-63DE0A0B24FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A496623D-7F6F-4687-930F-63DE0A0B24FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A496623D-7F6F-4687-930F-63DE0A0B24FF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A496623D-7F6F-4687-930F-63DE0A0B24FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A496623D-7F6F-4687-930F-63DE0A0B24FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A496623D-7F6F-4687-930F-63DE0A0B24FF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15C4CC96-23C4-49C4-82EC-CD92DEE3E3BA}
+	EndGlobalSection
+EndGlobal

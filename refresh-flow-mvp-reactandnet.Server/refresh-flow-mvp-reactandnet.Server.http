@@ -1,0 +1,6 @@
+@refresh_flow_mvp_reactandnet.Server_HostAddress = http://localhost:5242
+
+GET {{refresh_flow_mvp_reactandnet.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

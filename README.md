@@ -93,26 +93,44 @@ If an **old** refresh token (already rotated) is reused:
 
 ## 🔄 Summary Diagram
 Login
+
 └── Issue JWT + Refresh Token
+
 ├─ JWT → short life (15m)
+
 └─ Refresh → long life (7–30d, stored in DB)
 
+
 Normal API Call
+
 ├─ Valid JWT → OK
+
 └─ Expired JWT → 401 → Refresh flow
 
+
 Refresh Flow
+
 ├─ Cookie HttpOnly (/auth/refresh)
+
 ├─ Validate & Rotate
+
 ├─ Return new JWT + set new cookie
+
 └─ Old token revoked
 
+
 Logout
+
 ├─ Revoke active refresh token
+
 └─ Clear cookie
 
+
+
 Reuse Detection
+
 ├─ If revoked token used → revoke all family tokens
+
 └─ Force logout on all devices (compromise response)
 
 ---
